@@ -1,0 +1,260 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    /* color: #333; */
+    /* background-color: rgba(128, 128, 128, 0.153); */
+}
+
+nav {
+    background:#004d40;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+nav li{
+    background-color: black;
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+header {
+ 
+    font-size: 1.5em;
+    
+    height: 400px;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://content.jdmagicbox.com/comp/jamshedpur/j1/0657px657.x657.220126004029.z7j1/catalogue/st-joseph-s-hospital-mango-jamshedpur-hospitals-n8g8q9bs63.jpg);
+    color: white;
+    background-size: cover;
+    background-position:center ;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+    text-align: center;
+
+    
+    
+}
+.separation{
+    height: 3px;
+    background-color: black;
+}
+section {
+    padding: 20px;
+     /* margin: 10px 100px;  */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.widthsep{
+    display: flex;
+    margin: 20px 30px;
+    gap: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+
+h2 {
+    color: blue;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    background: blue;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+/* Chatbot Styles */
+#chatbot-container {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 105px;
+    right: 105px;
+    background: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+#chatbot-header {
+    background: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+#chatbot-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#chatbot-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+#chatbot-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+}
+
+#chatbot-input button {
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#chatbot-input button:hover {
+    background: #005bb5;
+}
+
+#chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    z-index: 1001;
+}
+/* Symptom Checker Styles */
+#symptom-checker {
+    background: #c1c0c0;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+}
+
+#symptom-checker h2 {
+    color: #0066cc;
+}
+
+#symptom-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#symptoms-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#symptom-results {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eaf4ff;
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+    display: none;
+}
+

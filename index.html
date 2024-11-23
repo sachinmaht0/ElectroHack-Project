@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Smart Rural Healthcare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Smart Rural Healthcare</div>
+        <ul class="nav-links">
+            <li><a href="#hygiene-tips">Hygiene Tips</a></li>
+            <li><a href="#know-your-disease">Know Your Disease</a></li>
+            <li><a href="#emergency-contacts">Emergency Contacts</a></li>
+            <li><a href="#awareness-camps">Awareness Camps</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header>
+        <h1>Welcome to Smart Rural Healthcare!</h1>
+        <p>Your one-stop destination for healthy and happy lifestyle.
+            <br>
+            "Access to quality healthcare should not be determined by geography; rural communities deserve the same
+            innovations and care as urban centers."
+        </p>
+    </header>
+    <div class="separation">
+
+    </div>
+    <!-- Symptom Checker Section -->
+    <div>
+
+        <section id="symptom-checker">
+            <h2 style="color: blue;">Check Your Symptoms</h2>
+            <p>Enter your symptoms below to find possible conditions:</p>
+            <form id="symptom-form">
+                <input type="text" id="symptoms-input" placeholder="e.g., fever, headache, fatigue" required>
+                <button type="submit">Check</button>
+            </form>
+            <div id="symptom-results"></div>
+        </section>
+    </div>
+    <div class="separation"></div>
+
+
+    <!-- Hygiene Tips Section -->
+    <div class="firstdivision">
+
+        <section id="hygiene-tips">
+            <div class="widthsep">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/people-volunteers-collect-garbage-nature-park-open-air-cleanup-vector-banner-background-social-charity-activity-environment-protection-ecology-care-theme_570502-44.jpg"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h2>Hygiene Tips</h2>
+                    <ul>
+                        <li>Wash hands with soap or use alcohol-based sanitizers frequently.</li>
+                        <li>Ensure clean water and proper sanitation facilities.</li>
+                        <li>Dispose of medical waste safely, separating hazardous materials.</li>
+                        <li>Use and properly dispose of personal protective equipment (PPE).</li>
+                        <li>Sterilize medical tools and equipment regularly.</li>
+
+                        <li>Keep healthcare spaces clean and disinfect surfaces often</li>
+                        <li>Keep healthcare spaces clean and disinfect surfaces often</li>
+                        <li>Isolate infectious patients to prevent disease spread.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="separation"></div>
+
+        <!-- Know Your Disease Section -->
+        <section id="know-your-disease">
+            <div class="widthsep">
+                <div class="content">
+
+
+                    <h2>Know Your Disease</h2>
+                    <p>Click below to learn about common diseases and their remedies.</p>
+                    <button onclick="showDiseaseInfo()" style="font-size: 18px;">Learn More</button>
+                    <div id="disease-info" style="display:none;">
+                        <h3>Common Diseases</h3>
+                        <ul>
+                            <li>Malaria - Sleep under insecticide-treated nets, use insect repellents, eliminate mosquito breeding sites, and take antimalarial medications.</li>
+                            <li>Diabetes - Eat a balanced diet, exercise regularly, maintain a healthy weight, and monitor blood sugar levels.</li>
+                            <li>Diarrheal Diseases (e.g., Cholera, Dysentery) - Drink clean water, practice food hygiene, wash hands regularly, and promote sanitation.</li>
+                            <li>
+                                Respiratory Infections (e.g., Cold, Flu, Pneumonia) - Wash hands frequently, avoid contact with sick individuals, get vaccinated, and maintain good ventilation
+                            </li>
+                            <li>Hypertension (High Blood Pressure) - Reduce salt intake, exercise regularly, avoid excessive alcohol and smoking, and manage stress.
+                            </li>
+                            <li>HIV/AIDS - Practice safe sex, avoid sharing needles, get regular testing, and use antiretroviral therapy if at risk.</li>
+                            <li>Skin Diseases (e.g., Fungal Infections, Eczema) - Maintain personal hygiene, avoid sharing personal items, keep skin clean and dry, and use medicated soaps if necessary.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="https://switchindia.org/images/work/rural-health-camp-and-deworming-at-khopoli-mumbai.jpg"
+                        alt="" width="650px">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="separation"></div>
+    <div class="firstdivision">
+
+
+        <!-- Emergency Contacts Section -->
+
+        <section id="emergency-contacts">
+            <div class="widthsep">
+                <div class="image">
+                    <img src="https://medcab.in/assets/blogs/blog_thumbnail1689336846.jpg" alt="" width="650px" height="400px">
+                </div>
+                <div class="content">
+
+                    <h2>Emergency Contacts</h2>
+
+                    <p>Reach out to your nearest help in case of emergencies.</p>
+                    <ul>
+                        <li>Nearest Hospital: 123-456-7890</li>
+                        <li>Ambulance: 987-654-3210</li>
+                        <li>Local Doctor: 555-678-9101</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="separation"></div>
+
+        <!-- Awareness Camps Section -->
+        <section id="awareness-camps">
+            <div class="widthsep">
+                <div class="content">
+
+                    
+                    <h2>Awareness Camps</h2>
+                    <p>Upcoming Events:</p>
+                    <ul>
+                        <li>Health Check-up Camp - 25th Nov</li>
+                        <li>Sanitation Awareness Drive - 30th Nov</li>
+                    </ul>
+                </div>
+                <div class="image"><img src="https://www.khpt.org/wp-content/uploads/2024/08/WhatsApp-Image-2024-07-30-at-2.58.34-PM-1024x708.jpeg" alt="" width="650px" height="400px"></div>
+            </div>
+        </section>
+
+    </div>
+    <div class="separation"></div>
+    <!-- Contact Section -->
+    <section id="complaint ">
+        <div class="widthsep">
+            <div class="image">
+                <img src="https://i0.wp.com/sharpbharat.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-28-at-6.32.50-PM.jpeg?resize=696%2C381&ssl=1" alt="" height="500px">
+            </div>
+<div class="content">
+
+    <h2>Raise a Complaint</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="complaint">Complaint:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+            </div>
+    </section>
+    <div class="separation">
+
+    </div>
+    <footer style="background-color: #004d40; color: #ffffff; padding: 20px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+            <!-- Footer Logo -->
+            <div style="margin-bottom: 15px;">
+                Smart Rural Healthcare
+            </div>
+    
+            <!-- Quick Links -->
+            <div style="margin-bottom: 20px;">
+                <a href="about.html" style="color: #ffffff; margin: 0 10px; text-decoration: none;">About Us</a>
+                <a href="services.html" style="color: #ffffff; margin: 0 10px; text-decoration: none;">Services</a>
+                <a href="contact.html" style="color: #ffffff; margin: 0 10px; text-decoration: none;">Contact</a>
+                <a href="donate.html" style="color: #ffffff; margin: 0 10px; text-decoration: none;">Donate</a>
+            </div>
+    
+            <!-- Contact Information -->
+            <div style="margin-bottom: 15px;">
+                <p>Email: info@smartruralhealthcare.org</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: Adityapur, Jamshedpur, Jharkhand, India</p>
+            </div>
+    
+            <!-- Social Media Links -->
+            <div style="margin-bottom: 15px;">
+                <a href="https://facebook.com" target="Facebook" style="margin: 0 10px;" >Facebook
+                    
+                </a>
+                <a href="https://twitter.com" target="_blank" style="margin: 0 10px;">
+                    Twitter
+                    
+                </a>
+                <a href="https://instagram.com" target="_blank" style="margin: 0 10px;">
+                    Instagram
+                    
+                </a>
+            </div>
+    
+            <!-- Copyright Notice -->
+            <div>
+                <p>&copy; 2023 Rural Healthcare Initiative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Chatbot Section -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">Chat with us!</div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-input">
+                <input type="text" id="chat-input" placeholder="Ask your question..." />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <button id="chatbot-toggle">Click here to discuss your problem!</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
