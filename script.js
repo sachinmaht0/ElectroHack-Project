@@ -19,7 +19,11 @@ const chatMessages = document.getElementById('chatbot-messages');
 // Predefined Responses
 const responses = {
     hello: "Hi! Please share your problem or disease?",
+    malaria: "Sleep under insecticide-treated nets, use insect repellents, eliminate mosquito breeding sites, and take antimalarial medications.",
+    dengue:"Use mosquito repellents, wear long-sleeved clothing, eliminate stagnant water, and use mosquito nets and screens.",
     hygiene: "Here are some hygiene tips: Wash hands regularly, drink clean water, and maintain cleanliness.",
+    hypertension:"Reduce salt intake, exercise regularly, avoid excessive alcohol and smoking, and manage stress.",
+    diabetes:" Eat a balanced diet, exercise regularly, maintain a healthy weight, and monitor blood sugar levels.",
     disease: "You can check our 'Know Your Disease' section for details on diseases and remedies.",
     emergency: "For emergencies, check the 'Emergency Contacts' section for ambulance and hospital numbers.",
     default: "I'm sorry, I don't understand that. Please try asking differently."
